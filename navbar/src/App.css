@@ -1,0 +1,63 @@
+/* Reset */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.bgTitleColor {
+  color: #fefdff;
+  margin-bottom: 0px;
+  margin-top: 80px;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 700;
+}
+
+/* menu Blog */
+
+.navigation {
+  background-color: #1c1617;
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 20px;
+  color: #f1f1f1;
+  list-style: square;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Liste */
+
+ul {
+  color: #eef8f7;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* Heading  */
+
+h4 {
+  margin-bottom: 25px !important;
+}
+
+span {
+  font-weight: bold !important;
+  color: crimson !important;
+}
+
+.card-text {
+  margin: 0;
+  line-height: 1.5;
+}
